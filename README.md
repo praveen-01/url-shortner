@@ -37,10 +37,10 @@ cd System-design/url-shortner
 docker build -t url-shortener .
 ```
 
-### Further Implementations
+## Future Improvements
 
-- Use a standalone database like postgres
-- Add in-memory cache for scaling
-- Deploy the application to public domains
-- Integrate CI after deploying
-- Add analytics for link clicks for logged-in users
+- [ ] Add link expiration support
+- [ ] Support custom short URL aliases (e.g., /my-custom-link)
+- [ ] Add click analytics (number of visits per link)
+- [ ] Deploy the app (Render/AWS/GCP/Heroku)
+- [ ] Add user authentication for link management
